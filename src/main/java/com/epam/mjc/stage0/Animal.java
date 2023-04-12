@@ -19,18 +19,18 @@ public class Animal {
         if (numberOfPaws > 1){
             if (hasFur){
                 text = "This animal is mostly " + color + "." +
-                        " It has " + numberOfPaws + " paws and a fur";
+                        " It has " + numberOfPaws + " paws and a fur.";
             }else {
                 text = "This animal is mostly " + color + "." +
-                        " It has " + numberOfPaws + " paws and no fur";
+                        " It has " + numberOfPaws + " paws and no fur.";
             }
         }else {
             if (hasFur){
                 text = "This animal is mostly " + color + "." +
-                        " It has " + numberOfPaws + " paw and a fur";
+                        " It has " + numberOfPaws + " paw and a fur.";
             }else {
                 text = "This animal is mostly " + color + "."
-                        + " It has " + numberOfPaws + " paw and no fur";
+                        + " It has " + numberOfPaws + " paw and no fur.";
             }
         }
         return text;
